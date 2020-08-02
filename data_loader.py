@@ -58,8 +58,3 @@ def data_loader(image_filepath, text_filepath):
 	X, X_filename = image_loader(image_filepath)
 	Y = text_loader(text_filepath)
 	return X, X_filename, Y
-
-
-image_filepath = '/Users/prachigoyal/deep_learning/handwriting-recognition/words'
-text_filepath = '/Users/prachigoyal/deep_learning/handwriting-recognition/words.txt'
-data_loader(image_filepath, text_filepath)
