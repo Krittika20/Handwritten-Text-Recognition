@@ -41,9 +41,9 @@ def image_loader(filepath):
 	return np.array(X), X_filename
 	
 
-def text_loader(text_filepath):
+def text_loader(filepath):
 	Y = {}
-	file = open(text_filepath, 'r')
+	file = open(filepath, 'r')
 	for info in file:
 		if info[0] == '#':
 			pass
