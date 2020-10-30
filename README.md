@@ -1,4 +1,5 @@
 **Handwriting Recognition**
+
 Handwritten Text Recognition (HTR) is challenging because of the huge variations in individual writing styles. This project focuses on Offline Handwriting Recognition. We identify the handwritten English text by using Convolutional Neural Network (CNN) for feature extraction and Recurrent Neural Network (RNN) with Connectionist Temporal Classification (CTC) for sequence labeling. Handwritten Text Recognition (HTR) system implemented with TensorFlow (TF) and trained on the IAM off-line HTR dataset. This Neural Network (NN) model recognizes the text contained in the images of segmented words as shown in the illustration below.
 
 **Train Model : IAM Dataset**
